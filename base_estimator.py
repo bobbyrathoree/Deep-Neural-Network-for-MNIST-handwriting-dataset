@@ -15,7 +15,6 @@ from utils import (
 )
 
 
-
 class BaseEstimator(object):
     def __init__(self, _y_required=True):
         self._y_required = _y_required
